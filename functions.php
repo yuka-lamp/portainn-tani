@@ -61,24 +61,24 @@ function remove_image_attribute($html)
 //		アイキャッチ画像を有効にする。
 add_theme_support('post-thumbnails');
 
-// カスタム投稿タイプの追加
-add_action('init', 'create_post_type');
-function create_post_type()
-{
-    register_post_type(
-        'room',			// 投稿タイプ名の定義
-        array(
-            'labels' => array(
-                'name' => __('客室のご案内'),		// 表示する投稿タイプ名
-                'singular_name' => __('客室のご案内')
-            ),
-            'public' => true,
-            'menu_position' =>5,
-            'supports' => array('title','editor','custom-fields','thumbnail','revisions'),
-            'has_archive' => true
-        )
-    );
-}
+// // カスタム投稿タイプの追加
+// add_action('init', 'create_post_type');
+// function create_post_type()
+// {
+//     register_post_type(
+//         'room',			// 投稿タイプ名の定義
+//         array(
+//             'labels' => array(
+//                 'name' => __('客室のご案内'),		// 表示する投稿タイプ名
+//                 'singular_name' => __('客室のご案内')
+//             ),
+//             'public' => true,
+//             'menu_position' =>5,
+//             'supports' => array('title','editor','custom-fields','thumbnail','revisions'),
+//             'has_archive' => true
+//         )
+//     );
+// }
 
 //		bogoをカスタム投稿でも使用可能に
 add_filter('bogo_localizable_post_types', 'my_localizable_post_types', 10, 1);

@@ -12,13 +12,13 @@ get_header();
 $locale = get_locale();
 if ($locale === 'en_US') {
     $ttl = '';
-    $name = 'PORTA INN Kujo Residence';
+    $name = 'PORTA INN tanimachi 9-chome';
     $open = 'Coming Soon';
     $closest = "A minute's walk from Exit 6 of Kujo Station（Osaka Metro Chuo Line)";
     $lead = "Residential design that is perfect for a single night or long stays Great for use for leisure in the Osaka Bay area (USJ, Kaiyukan) or for concerts and events at the Kyocera Dome Osaka. Also perfect for business, only 2 stations (8 minutes) from Honmachi Station (Chuo Line)";
     $concept = 'Stay as You Live';
     $concept_txt = 'Each of our guest rooms are fully equipped with a kitchenette, large refrigerator, large closet, and combined washing machine and dryer for a comfortable stay for many nights or just one. ';
-    $room_txt = 'PORTA INN Kujo Residence offers three types of room.<br>We look forward to your visit.';
+    $room_txt = 'PORTA INN tanimachi 9-chome offers three types of room.<br>We look forward to your visit.';
     $near_txt = 'Convenience stores, shopping streets and restaurants located neaby the hotel further enhance convenience during your stay.';
     $guide_txt ='Rooms are equipped with a kitchenette, large refrigerator, and combined washing machine and dryer, <br>and feature separate spaces for the toilet and bathtub for an at-home experience.';
     $address = '1-13-22 Kujo, Nishi-ku, Osaka-shi 550-0027';
@@ -67,13 +67,13 @@ if ($locale === 'en_US') {
     $access = '大阪地鐵中央線九條車站⑥號出口徒步約1分鐘<br>阪神電車阪神難波線九條站①號出口徒步約3分鐘';
     $all_room = '客房介紹';
 } else {
-    $ttl = '大阪を一望できる<br>コンパクトで<br class="sp-only">快適なビジネスホテル。';
+    $ttl = '大阪の東西南北を一望できる上町台地に<br>コンパクトで快適なビジネスホテルが誕生します。';
     $name = 'ポルタイン谷町九丁目';
-    $open = 'Coming Soon';
-    $closest = '大阪メトロ谷町線・千日前線<br class="sp-only">「谷町九丁目駅」<br>③番出口徒歩1分';
+    $open = '2021年3月28日(日)<br>グランドオープン';
+    $closest = '大阪メトロ谷町線・千日前線「谷町九丁目駅」③番出口徒歩1分<br>近鉄大阪線・難波線「大阪上元町駅」地下中央改札口より徒歩4分';
     $lead = 'ホテルの南西には大阪三大夏祭りで有名な「生國魂神社（いくくにたまじんじゃ）」があり、四季の祭事が行われています。<br>周辺は有名なお寺や神社が多くパワースポットになっています。';
-    $concept = '「大阪市内の移動・フットワーク抜群のホテル」';
-    $concept_txt = 'ポルタイン谷町九丁目は、ビジネスに最適な4アクセス（大阪メトロ谷町線・千日前線・近鉄大阪線・難波線）のハブエリアに位置し、キタ（梅田）やミナミ（なんば）、本町などビジネス街にも5～10分。大阪観光の拠点に最適な立地です。';
+    $concept = '「大阪市内の移動にフットワーク抜群のホテル」';
+    $concept_txt = '市内はもちろん広域（奈良や神戸）の移動に便利な4線路線。大阪メトロ谷町線・大阪メトロ千日前線「谷町九丁目駅」・近鉄大阪線・近鉄難波線「大阪上本町駅」のハブエリアに位置し、キタ（梅田）やミナミ（なんば）、ベイエリア（海遊館・USJ）への移動も大変便利で大阪の観光の拠点に最適な立地です。';
     $room_txt = 'ポルタイン谷町九丁目では、<br>4つのお部屋タイプをご用意しております。';
     $near_txt = '当館周辺にはコンビニや商店街、飲食店があり、<br>ご滞在中の利便性をより一層引き上げます。';
     $guide_txt ='システムキッチン、大型冷蔵庫、乾燥機付ランドリーを設置し、<br>マンションタイプならではのバスルームとトイレはセパレートです。';
@@ -82,8 +82,8 @@ if ($locale === 'en_US') {
     <li>1階エレベーター呼び出しボタンは、セキュリティがかかっております。ルームキーカードをかざしてからボタンを押してください。</li>
     <li>喫煙スペースは、屋上階（屋外）にご用意しております。</li>
     <li>2階サービスコーナーには、乾燥機能付コインランドリー2台、製氷機、飲料自販機1台がございます。（両替はフロントにて承ります）</li>
-    <li>2階エレベーターホールに、ズボンプレッサー（5台）をご用意しております。<br>（ご使用後は返却にご協力をお願いいたします）</li>
-    <li>1階カフェ「café’9」では、ご宿泊のお客様に朝7：00～9：00まで軽食（パン・ジュース・コーヒー）を無料でご用意しておりますので、ご利用下さい。</li>';
+    <li>禁煙スペースは、屋上階（野外）にございます。</li>
+    <li>スボンプレッサーは、2階エレベーターホールにご用意しております。</li>';
     $address = '〒550-0027　大阪市西区九条1-13-22';
     $access = '大阪メトロ中央線九条駅⑥番出口徒歩1分<br>阪神電車なんば線九条駅①番出口徒歩３分';
     $all_room = '客室のご案内';
@@ -111,43 +111,6 @@ if ($locale === 'en_US') {
 <p><?php echo $concept_txt; ?></p>
 </div>
 </div><!-- /.index-concept -->
-<div class="index-room">
-<div class="inner">
-<div class="ttl-bloc">
-<h2 class="eng"><span>Room</span></h2>
-<p><?php echo $room_txt; ?></p>
-</div>
-<div class="slide-room">
-<?php
-$args = ['post_type' => 'room','numberposts' => 3 ,'suppress_filters' => false ,'lang' => $locale];
-$posts = get_posts($args);
-if ($posts):
-foreach ($posts as $post):
-setup_postdata($post);
-$id = get_the_ID();
-$ttl = get_the_title();
-$content = mb_strimwidth(strip_tags(get_the_content()), 0, 80, '...');
-if (has_post_thumbnail()) {
-    $thumbnail = get_the_post_thumbnail_url(get_the_ID(), 'large');
-}
-?>
-<div class="room">
-<div class="img">
-<img src="<?php echo $thumbnail; ?>" alt="<?php echo $ttl; ?>">
-</div>
-<div class="txt">
-<h3><?php echo $ttl; ?></h3>
-<p><?php echo $content; ?></p>
-<!-- <p>room size ｜ <?php echo get_post_meta($id, 'size', true); ?>㎡</p> -->
-</div>
-</div><!-- /.room -->
-<?php endforeach; endif; wp_reset_postdata(); ?>
-</div>
-<div class="btn">
-<a href="<?php echo $home; ?>/room/"><i class="fas fa-chevron-circle-right"></i><?php echo $all_room; ?></a>
-</div>
-</div>
-</div><!-- /.index-room -->
 
 <div class="index-near bg-ptn1">
 <div class="inner">
@@ -391,44 +354,24 @@ if (has_post_thumbnail()) {
 </dl></li>
 <?php } else { ?>
 <li><dl>
-<dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide01.jpg" alt="受付"></dt>
-<!-- <dd>受付</dd> -->
-</dl></li>
-<li><dl>
-<dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide02.jpg" alt="外観"></dt>
-<!-- <dd>外観</dd> -->
-</dl></li>
-<li><dl>
-<dt><a target="_blank" href="https://www.anytimefitness.co.jp/bentencho/"><img src="<?php echo get_template_directory_uri(); ?>/img/guide03.jpg" alt="24時間フィットネス"></a></dt>
-<!-- <dd>24時間フィットネス</dd> -->
-</dl></li>
-<li><dl>
-<dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide04.jpg" alt="ベランダ"></dt>
-<!-- <dd>コインランドリー</dd> -->
-</dl></li>
-<li><dl>
-<dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide05.jpg" alt="クローゼット"></dt>
-<!-- <dd>その他</dd> -->
-</dl></li>
-<li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide01.jpg" alt="キッチン"></dt>
-<!-- <dd>受付</dd> -->
+<dd>キッチン</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide02.jpg" alt="備品"></dt>
-<!-- <dd>外観</dd> -->
+<dd>備品</dd>
 </dl></li>
 <li><dl>
-<dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide03.jpg" alt="冷蔵庫と電子レンジ"></dt>
-<!-- <dd>24時間フィットネス</dd> -->
+<dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide03.jpg" alt="備品"></dt>
+<dd>備品</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide04.jpg" alt="ベランダ"></dt>
-<!-- <dd>コインランドリー</dd> -->
+<dd>ベランダ</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide05.jpg" alt="クローゼット"></dt>
-<!-- <dd>その他</dd> -->
+<dd>クローゼット</dd>
 </dl></li>
 <?php } ?>
 </ul>

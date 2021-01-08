@@ -1169,6 +1169,10 @@ address.cr {
   margin-top: 50px
 }
 
+.index-guide .info ul {
+  margin-left: 2rem;
+}
+
 .index-guide .info ul li {
   list-style: circle;
 }
