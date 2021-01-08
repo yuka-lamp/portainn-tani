@@ -1,0 +1,410 @@
+.txt-c {
+  text-align: center;
+  font-size: .875rem;
+  margin-top: 2rem;
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.ttl3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.ttl3 span {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 1rem;
+}
+
+.ttl3 span::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: inline-block;
+  height: 1px;
+  width: 4rem;
+  margin-left: -2rem;
+  background-color: #000;
+}
+
+@media (max-width: 1000px) {
+  .wrap {
+    width: 100%;
+    padding: 40px 1rem;
+  }
+
+  .ttl3 {
+    font-size: 1.3rem;
+  }
+}
+
+.rooms-archives {
+  position: relative;
+}
+
+.rooms-archive {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 40px 0;
+  margin-bottom: 40px;
+  border-bottom: solid 1px #000;
+}
+
+.rooms-archive h3 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+
+.rooms-picutuers {
+  margin-bottom: 2rem;
+}
+
+.rooms-archive .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rooms-archive .info .facility,
+.rooms-archive .info .txt {
+  width: 50%;
+}
+
+.rooms-archive .info .txt {
+  font-size: .875rem;
+}
+
+.rooms-archive .info .facility {
+  box-sizing: border-box;
+  padding-left: 2rem;
+}
+
+.rooms-archive .info .facility table {
+  width: 100%;
+  font-size: .875rem;
+  border-collapse: collapse;
+}
+
+.rooms-archive .info .facility table th {
+  font-weight: normal;
+  text-align: left;
+  width: 20%
+}
+
+.rooms-archive .info .facility table th,
+.rooms-archive .info .facility table td {
+  border-bottom: dotted 1px #000;
+  box-sizing: border-box;
+  padding: .5rem;
+}
+
+.hall-equipment {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.hall-equipment>div {
+  width: 50%;
+}
+
+.hall-equipment>div.txt {
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.hall-equipment>div.txt h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+
+.hall-equipment>div.txt p {
+  font-size: .875rem;
+}
+
+.hall-equipment>div.txt h4 {
+  margin-top: 1rem;
+}
+
+.hall-equipment>div.txt ul {
+  box-sizing: border-box;
+  padding-left: 1.5rem;
+}
+
+.hall-equipment>div.txt ul li {
+  list-style: disc;
+  font-size: .875rem;
+}
+
+.hall-equipment>div.img {
+  text-align: right;
+}
+
+.fitness {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  padding: 2rem;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.fitness>div,.fitness img {
+  width: 48%
+}
+
+.fitness h3 {
+  font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.other-appearance,
+.appearances {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.appearances .content {
+  margin-bottom: 2rem;
+}
+
+.appearances .content img {
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.appearances .content h4 {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.other-appearance {
+  margin-top: 4rem;
+}
+
+.other-appearance h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+.other-appearance li {
+  font-size: .875rem;
+}
+
+.trains {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+  border-bottom: solid 1px #000;
+  margin-bottom: 60px;
+}
+
+.trains>div {
+  width: 48%;
+}
+
+.trains>div h4 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 1em
+}
+
+.trains>div h4 img {
+  margin-right: 1rem;
+}
+
+.trains>div p {
+  margin-top: 1rem;
+  font-size: .875rem;
+}
+
+.cars {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.cars>div {
+  width: 30%;
+  box-sizing: border-box;
+  text-align: center;
+  border: solid 1px #707070;
+  padding: 3rem 2rem;
+  margin: 0 1%;
+}
+
+.cars>div h4 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.cars>div img {
+  margin: 1.5rem 0;
+  max-width: 50px
+}
+
+.cars>div p {
+  font-size: .8rem;
+}
+
+@media (max-width: 1000px) {
+  .rooms-archive h3 {
+    font-size: 1.6rem;
+  }
+
+  .rooms-archive .info {
+    display: block;
+  }
+
+  .rooms-archive .info .facility,
+  .rooms-archive .info .txt {
+    width: 100%;
+  }
+
+  .rooms-archive .info .facility {
+    padding-left: 0;
+    margin-top: 1rem;
+  }
+
+  .rooms-archive .info .facility table th {
+    white-space: nowrap;
+  }
+
+  .rooms-archive {
+    border-bottom: 0
+  }
+
+  .hall-equipment {
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+  }
+
+  .hall-equipment>div {
+    width: 100%;
+  }
+
+  .hall-equipment>div.txt {
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .fitness>div,.fitness img {
+    width: 100%
+  }
+
+  .fitness img {
+    margin-bottom: 1rem
+  }
+
+  .other-appearance .content {
+    margin-bottom: 2rem;
+  }
+
+  .trains {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+
+  .trains>div {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .trains>div h4 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 1em
+  }
+
+  .trains>div h4 img {
+    margin-right: 1rem;
+  }
+
+  .trains>div p {
+    margin-top: 1rem;
+    font-size: .875rem;
+  }
+
+  .cars {
+    flex-wrap: wrap;
+  }
+
+  .cars>div {
+    width: 100%;
+    border: solid 1px #707070;
+    padding: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.foot-link {
+  background-color: #E8E8E8;
+  box-sizing: border-box;
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+}
+
+.foot-link .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.foot-link .wrap>a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 50%;
+  box-sizing: border-box;
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+  padding: 2rem 0;
+}
+
+.foot-link .wrap>a img {
+  margin-right: 1rem;
+}
+
+.foot-link .wrap>a:first-child {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-right: solid 2px #E8E8E8;
+}
+
+.foot-link .wrap>a:last-child {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .foot-link .wrap>a {
+    font-size: .8rem;
+  }
+  .foot-link .wrap>a img {
+    width: 20px;
+    height: auto;
+  }
+}
