@@ -2720,7 +2720,6 @@ address.cr {
 }
 
 .lead dl.tel-parts dd a {
-  display: none;
   font-weight: 700;
   text-decoration: none
 }
