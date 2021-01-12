@@ -175,182 +175,182 @@ if ($locale === 'en_US') {
 </ul>
 </div><!-- /.index-near -->
 
-<div class="index-guide">
+<!-- <div class="index-guide">
 <div class="inner">
 <div class="ttl-bloc">
 <h2 class="eng"><span>Guide</span></h2>
 <p><?php echo $guide_txt;?></p>
 </div>
-<!-- <div class="view">
+<div class="view">
 <div><iframe src="https://www.google.com/maps/embed?pb=!4v1562040010529!6m8!1m7!1sCAoSLEFGMVFpcFB6ZWkwMHlENUd6b0ROYVplcnFxOWVvcG4ybnRYdkF1VS1HTS1a!2m2!1d34.669894193236!2d135.46309258115!3f13.436730133372464!4f-5.955435915357995!5f0.7820865974627469" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 </div>
 <div class="view-btn">
 <a href="https://goo.gl/maps/EEngFh4r1echTtSb7"><i class="fas fa-chevron-circle-right"></i>　ストリートビューを見る</a>
-</div> -->
+</div>
 <ul class="slide-guide">
 <?php if ('en_US' == $locale) { ?>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide01.jpg" alt="Reception Desk"></dt>
-<!-- <dd>Reception Desk</dd> -->
+<dd>Reception Desk</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide02.jpg" alt="Appearance"></dt>
-<!-- <dd>Appearance</dd> -->
+<dd>Appearance</dd>
 </dl></li>
 <li><dl>
 <dt><a target="_blank" href="https://www.anytimefitness.co.jp/bentencho/"><img src="<?php echo get_template_directory_uri(); ?>/img/guide03.jpg" alt="24-hour Fitness Gym"></a></dt>
-<!-- <dd>24-hour Fitness Gym</dd> -->
+<dd>24-hour Fitness Gym</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide04.jpg" alt="Laundromat"></dt>
-<!-- <dd>Laundromat</dd> -->
+<dd>Laundromat</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide05.jpg" alt="Others"></dt>
-<!-- <dd>Others</dd> -->
+<dd>Others</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide01.jpg" alt="Reception Desk"></dt>
-<!-- <dd>Reception Desk</dd> -->
+<dd>Reception Desk</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide02.jpg" alt="Appearance"></dt>
-<!-- <dd>Appearance</dd> -->
+<dd>Appearance</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide03.jpg" alt="24-hour Fitness Gym"></dt>
-<!-- <dd>24-hour Fitness Gym</dd> -->
+<dd>24-hour Fitness Gym</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide04.jpg" alt="Laundromat"></dt>
-<!-- <dd>Laundromat</dd> -->
+<dd>Laundromat</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide05.jpg" alt="Others"></dt>
-<!-- <dd>Others</dd> -->
+<dd>Others</dd>
 </dl></li>
 <?php } elseif ('ko_KR' == $locale) { ?>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide01.jpg" alt="접수"></dt>
-<!-- <dd>접수</dd> -->
+<dd>접수</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide02.jpg" alt="외관"></dt>
-<!-- <dd>외관</dd> -->
+<dd>외관</dd>
 </dl></li>
 <li><dl>
 <dt><a target="_blank" href="https://www.anytimefitness.co.jp/bentencho/"><img src="<?php echo get_template_directory_uri(); ?>/img/guide03.jpg" alt="24시간 피트니스 "></a></dt>
-<!-- <dd>24시간 피트니스 </dd> -->
+<dd>24시간 피트니스 </dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide04.jpg" alt="코인 세탁기"></dt>
-<!-- <dd>코인 세탁기</dd> -->
+<dd>코인 세탁기</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide05.jpg" alt="그 외"></dt>
-<!-- <dd>그 외</dd> -->
+<dd>그 외</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide01.jpg" alt="접수"></dt>
-<!-- <dd>접수</dd> -->
+<dd>접수</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide02.jpg" alt="외관"></dt>
-<!-- <dd>외관</dd> -->
+<dd>외관</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide03.jpg" alt="24시간 피트니스 "></dt>
-<!-- <dd>24시간 피트니스 </dd> -->
+<dd>24시간 피트니스 </dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide04.jpg" alt="코인 세탁기"></dt>
-<!-- <dd>코인 세탁기</dd> -->
+<dd>코인 세탁기</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide05.jpg" alt="그 외"></dt>
-<!-- <dd>그 외</dd> -->
+<dd>그 외</dd>
 </dl></li>
 <?php } elseif ('zh_CN' == $locale) { ?>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide01.jpg" alt="受理"></dt>
-<!-- <dd>受理</dd> -->
+<dd>受理</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide02.jpg" alt="外观"></dt>
-<!-- <dd>外观</dd> -->
+<dd>外观</dd>
 </dl></li>
 <li><dl>
 <dt><a target="_blank" href="https://www.anytimefitness.co.jp/bentencho/"><img src="<?php echo get_template_directory_uri(); ?>/img/guide03.jpg" alt="24小时健身房"></a></dt>
-<!-- <dd>24小时健身房</dd> -->
+<dd>24小时健身房</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide04.jpg" alt="投币式洗衣机"></dt>
-<!-- <dd>投币式洗衣机</dd> -->
+<dd>投币式洗衣机</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide05.jpg" alt="其他"></dt>
-<!-- <dd>其他</dd> -->
+<dd>其他</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide01.jpg" alt="受理"></dt>
-<!-- <dd>受理</dd> -->
+<dd>受理</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide02.jpg" alt="外观"></dt>
-<!-- <dd>外观</dd> -->
+<dd>外观</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide03.jpg" alt="24小时健身房"></dt>
-<!-- <dd>24小时健身房</dd> -->
+<dd>24小时健身房</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide04.jpg" alt="投币式洗衣机"></dt>
-<!-- <dd>投币式洗衣机</dd> -->
+<dd>投币式洗衣机</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide05.jpg" alt="其他"></dt>
-<!-- <dd>其他</dd> -->
+<dd>其他</dd>
 </dl></li>
 <?php } elseif ('zh_TW' == $locale) { ?>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide01.jpg" alt="櫃檯"></dt>
-<!-- <dd>櫃檯</dd> -->
+<dd>櫃檯</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide02.jpg" alt="外觀"></dt>
-<!-- <dd>外觀</dd> -->
+<dd>外觀</dd>
 </dl></li>
 <li><dl>
 <dt><a target="_blank" href="https://www.anytimefitness.co.jp/bentencho/"><img src="<?php echo get_template_directory_uri(); ?>/img/guide03.jpg" alt="24 小時健身房"></a></dt>
-<!-- <dd>24 小時健身房</dd> -->
+<dd>24 小時健身房</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide04.jpg" alt="自助洗衣服"></dt>
-<!-- <dd>自助洗衣服</dd> -->
+<dd>自助洗衣服</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide05.jpg" alt="其他"></dt>
-<!-- <dd>其他</dd> -->
+<dd>其他</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide01.jpg" alt="櫃檯"></dt>
-<!-- <dd>櫃檯</dd> -->
+<dd>櫃檯</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide02.jpg" alt="外觀"></dt>
-<!-- <dd>外觀</dd> -->
+<dd>外觀</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide03.jpg" alt="24 小時健身房"></dt>
-<!-- <dd>24 小時健身房</dd> -->
+<dd>24 小時健身房</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide04.jpg" alt="自助洗衣服"></dt>
-<!-- <dd>自助洗衣服</dd> -->
+<dd>自助洗衣服</dd>
 </dl></li>
 <li><dl>
 <dt><img src="<?php echo get_template_directory_uri(); ?>/img/guide05.jpg" alt="其他"></dt>
-<!-- <dd>其他</dd> -->
+<dd>其他</dd>
 </dl></li>
 <?php } else { ?>
 <li><dl>
@@ -390,7 +390,8 @@ if ($locale === 'en_US') {
 <div class="btn"><a href="<?php echo esc_url(home_url('/')); ?>facilities/"><i class="fas fa-chevron-circle-right"></i>館内のご案内</a></div>
 <?php } ?>
 </div>
-</div><!-- /.index-guide -->
+</div>-->
+<!-- /.index-guide -->
 
 <div class="index-access">
 <div class="map">

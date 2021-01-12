@@ -1506,7 +1506,8 @@ address.cr {
 #kv-contact-4,
 #kv-contact-3,
 #kv-contact-2,
-#kv-contact {
+#kv-contact,
+#kv-recruit {
   background: url(./img/kv-contact.jpg) no-repeat 50% 50%;
   background-size: cover
 }

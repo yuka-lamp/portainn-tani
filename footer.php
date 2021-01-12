@@ -31,7 +31,7 @@ if ($locale === 'en_US') {
 } else {
     $check = 'ポルタインホテルの空室を確認する';
     $button = '空室検索';
-    $menu = ['館内のご案内','交通アクセス','お知らせ','お問い合わせ'];
+    $menu = ['館内のご案内','交通アクセス','お知らせ','採用'];
 }
 
 ?>
@@ -52,7 +52,7 @@ if ($locale === 'en_US') {
 <a href="<?php echo $home; ?>/facilities/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[0]; ?></a>
 <a href="<?php echo $home; ?>/access/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[1]; ?></a>
 <a href="<?php echo $home; ?>/news/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[2]; ?></a>
-<a href="<?php echo $home; ?>/contact/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[3]; ?></a>
+<a href="<?php echo $home; ?>/recruit/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[3]; ?></a>
 </div>
 <!-- <div class="language">
 <a href="<?php echo $home; ?>/en/">English</a>

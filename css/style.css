@@ -408,3 +408,9 @@
     height: auto;
   }
 }
+
+/* 採用情報 */
+.recruit-table {
+  width: 80%;
+  margin: 0 auto 2rem auto;
+}
