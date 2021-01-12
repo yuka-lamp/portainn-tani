@@ -15,23 +15,23 @@ $locale = get_locale();
 if ($locale === 'en_US') {
     $check = 'Check Porta inn availability';
     $button = 'Search';
-    $menu = ['Hotel Tour','Access','News','Contact Us'];
+    $menu = ['Room','Hotel Tour','Access','News','Contact Us'];
 } elseif ($locale === 'ko_KR') {
     $check = '토르타인호텔의 객실 확인';
     $button = '객실 검색';
-    $menu = ['Hotel Tour','Access','News','Contact Us'];
+    $menu = ['Room','Hotel Tour','Access','News','Contact Us'];
 } elseif ($locale === 'zh_CN') {
     $check = '确认Porta inn酒店的空房';
     $button = '搜索空房';
-    $menu = ['Hotel Tour','Access','News','Contact Us'];
+    $menu = ['Room','Hotel Tour','Access','News','Contact Us'];
 } elseif ($locale === 'zh_TW') {
     $check = 'PORTA HOTEL 確認空房';
     $button = '查詢空房';
-    $menu = ['Hotel Tour','Access','News','Contact Us'];
+    $menu = ['Room','Hotel Tour','Access','News','Contact Us'];
 } else {
     $check = 'ポルタインホテルの空室を確認する';
     $button = '空室検索';
-    $menu = ['館内のご案内','交通アクセス','お知らせ','採用'];
+    $menu = ['客室のご案内','館内のご案内','交通アクセス','お知らせ','採用'];
 }
 
 ?>
@@ -49,10 +49,11 @@ if ($locale === 'en_US') {
 </div>
 <div class="links">
 <div class="pages">
-<a href="<?php echo $home; ?>/facilities/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[0]; ?></a>
-<a href="<?php echo $home; ?>/access/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[1]; ?></a>
-<a href="<?php echo $home; ?>/news/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[2]; ?></a>
-<a href="<?php echo $home; ?>/recruit/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[3]; ?></a>
+<a href="<?php echo $home; ?>/room/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[0]; ?></a>
+<a href="<?php echo $home; ?>/facilities/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[1]; ?></a>
+<a href="<?php echo $home; ?>/access/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[2]; ?></a>
+<a href="<?php echo $home; ?>/news/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[3]; ?></a>
+<a href="<?php echo $home; ?>/recruit/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[4]; ?></a>
 </div>
 <!-- <div class="language">
 <a href="<?php echo $home; ?>/en/">English</a>

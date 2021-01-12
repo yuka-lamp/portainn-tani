@@ -112,6 +112,44 @@ if ($locale === 'en_US') {
 </div>
 </div><!-- /.index-concept -->
 
+<div class="index-room">
+<div class="inner">
+<div class="ttl-bloc">
+<h2 class="eng"><span>客室</span></h2>
+<p>４つのお部屋タイプをご用意しております。</p>
+</div>
+<div class="slide-room">
+<?php
+$args = ['post_type' => 'room', 'numberposts' => 3];
+$posts = get_posts($args);
+if ($posts):
+foreach ($posts as $post):
+setup_postdata($post);
+$id = get_the_ID();
+$ttl = get_the_title();
+$content = mb_strimwidth(strip_tags(get_the_content()), 0, 80, '...');
+if (has_post_thumbnail()) {
+    $thumbnail = get_the_post_thumbnail_url(get_the_ID(), 'large');
+}
+?>
+<div class="room">
+<div class="img">
+<img src="<?php echo $thumbnail; ?>" alt="<?php echo $ttl; ?>">
+</div>
+<div class="txt">
+<h3><?php echo $ttl; ?></h3>
+<p><?php echo $content; ?></p>
+<p>room size ｜ <?php echo get_post_meta($id, 'size', true); ?>㎡</p>
+</div>
+</div><!-- /.room -->
+<?php endforeach; endif; wp_reset_postdata(); ?>
+</div>
+<div class="btn">
+<a href="<?php echo $home; ?>/room/"><i class="fas fa-chevron-circle-right"></i>全ての客室を見る</a>
+</div>
+</div>
+</div><!-- /.index-room -->
+
 <div class="index-near bg-ptn1">
 <div class="inner">
 <div class="ttl-bloc">
