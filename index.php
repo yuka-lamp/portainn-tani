@@ -70,7 +70,7 @@ if ($locale === 'en_US') {
     $ttl = '大阪の東西南北を一望できる上町台地に<br>コンパクトで快適なビジネスホテルが誕生します。';
     $name = 'ポルタイン谷町九丁目';
     $open = '2021年3月28日(日)<br>グランドオープン';
-    $closest = '大阪メトロ谷町線・千日前線「谷町九丁目駅」③番出口徒歩1分<br>近鉄大阪線・難波線「大阪上元町駅」地下中央改札口より徒歩4分';
+    $closest = '大阪メトロ谷町線・千日前線「谷町九丁目駅」③番出口徒歩1分<br>近鉄大阪線・難波線「大阪上本町駅」地下中央改札口より徒歩4分';
     $lead = 'ホテルの南西には大阪三大夏祭りで有名な「生國魂神社（いくくにたまじんじゃ）」があり、四季の祭事が行われています。<br>周辺は有名なお寺や神社が多くパワースポットになっています。';
     $concept = '「大阪市内の移動に<br>フットワーク抜群のホテル」';
     $concept_txt = '市内はもちろん広域（奈良や神戸）の移動に便利な4路線。大阪メトロ谷町線・大阪メトロ千日前線「谷町九丁目駅」・近鉄大阪線・近鉄難波線「大阪上本町駅」のハブエリアに位置し、キタ（梅田）やミナミ（なんば）、ベイエリア（海遊館・USJ）への移動も大変便利で大阪観光の拠点に最適な立地です。';
@@ -84,8 +84,8 @@ if ($locale === 'en_US') {
     <li>2階サービスコーナーには、乾燥機能付コインランドリー2台、製氷機、飲料自販機1台がございます。（両替はフロントにて承ります）</li>
     <li>禁煙スペースは、屋上階（野外）にございます。</li>
     <li>ズボンプレッサーは、2階エレベーターホールにご用意しております。</li>';
-    $address = '〒550-0027　大阪市西区九条1-13-22';
-    $access = '大阪メトロ谷町線・千日前線「谷町九丁目駅」③番出口徒歩1分<br>近鉄大阪線・難波線「大阪上元町駅」地下中央改札口より徒歩4分';
+    $address = '〒543-0071 大阪市天王寺区生玉町2-2';
+    $access = '近鉄大阪線・難波線「大阪上本町駅」地下中央改札口より徒歩4分';
     $all_room = '客室のご案内';
 }
 ?>
@@ -431,14 +431,25 @@ if (has_post_thumbnail()) {
 </div>-->
 <!-- /.index-guide -->
 
+<div class="index-news">
+  <div class="inner" style="padding: 50px 0;">
+  <div class="ttl-bloc" style="margin-bottom: 0;">
+  <h2 class="eng"><span>Access</span></h2>
+  </div>
+  </div>
+</div>
+
 <div class="index-access">
 <div class="map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.178313802778!2d135.4727088147338!3d34.67544884207879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e64c389873ff%3A0xe9ceadd0d21a8901!2z44CSNTUwLTAwMjcg5aSn6Ziq5bqc5aSn6Ziq5biC6KW_5Yy65Lmd5p2h77yR5LiB55uu77yR77yT!5e0!3m2!1sja!2sjp!4v1581582025028!5m2!1sja!2sjp" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.57680791089!2d135.51256966529044!3d34.6653890304436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7457279c125%3A0x3fc9a847d2fa9128!2z44CSNTQzLTAwNzEg5aSn6Ziq5bqc5aSn6Ziq5biC5aSp546L5a-65Yy655Sf546J55S677yS!5e0!3m2!1sja!2sjp!4v1610698610477!5m2!1sja!2sjp"></iframe>
+
 </div>
 <div class="info">
-<p><?php echo $address; ?><br>TEL：006-6581-5000</p>
+<p><?php echo $address; ?></p>
+<p>TEL：<a href="tel:06-6779-3000">06-6779-3000</a>
+<br>FAX：06-6779-3001</p>
 <p><?php echo $access; ?></p>
-<p class="btn-view"><a href="https://goo.gl/maps/VAiYUyQJeLmuTeJp6" target="_blank">Google MAP</a></p>
+<p class="btn-view"><a href="https://goo.gl/maps/VvUNvHUkegyhbHso7" target="_blank">Google MAP</a></p>
 </div>
 </div><!-- /.index-access -->
 

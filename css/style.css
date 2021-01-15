@@ -63,6 +63,9 @@
   font-weight: normal;
   margin-bottom: 1em;
 }
+.rooms-archive h3 span {
+  font-size: 1rem;
+}
 
 .rooms-picutuers {
   margin-bottom: 2rem;
