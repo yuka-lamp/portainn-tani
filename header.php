@@ -79,6 +79,12 @@ $wp_url = get_template_directory_uri();
 <li><a target="_blank" href="https://twitter.com/Portainnbenten"><img src="<?php echo get_template_directory_uri(); ?>/img/icn-tw.png" alt="twitter"></a></li>
 </ul> -->
 <?php wp_nav_menu(['theme_location' => 'primary']); ?>
+<a href="https://portainn.jp/" target="_blank" class="bentencho">
+  <div class="">
+    <img src="<?php echo $wp_url; ?>/img/logo_bentencho.png" alt="ポルタイン弁天町ロゴ">
+    <p>ポルタイン弁天町</p>
+  </div>
+</a>
 </div>
 
 <div class="fixBtn btn btn-white">

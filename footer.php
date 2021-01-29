@@ -29,7 +29,7 @@ if ($locale === 'en_US') {
     $button = '查詢空房';
     $menu = ['Room','Hotel Tour','Access','News','Contact Us'];
 } else {
-    $check = 'ポルタインホテルの空室を確認する';
+    $check = 'ポルタイン谷町九丁目の空室を確認する';
     $button = '空室検索';
     $menu = ['客室のご案内','館内のご案内','交通アクセス','お知らせ','採用'];
 }
@@ -55,6 +55,9 @@ if ($locale === 'en_US') {
 <a href="<?php echo $home; ?>/news/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[3]; ?></a>
 <a href="<?php echo $home; ?>/recruit/"><i class="fas fa-chevron-circle-right"></i><?php echo $menu[4]; ?></a>
 </div>
+
+<a href="https://portainn.jp/" target="_blank">ポルタイン弁天町 <i class="fas fa-external-link-alt"></i></a>
+
 <!-- <div class="language">
 <a href="<?php echo $home; ?>/en/">English</a>
 <a href="<?php echo $home; ?>/">日本語</a>

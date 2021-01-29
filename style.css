@@ -615,6 +615,42 @@ em {
   text-align: center
 }
 
+.bentencho {
+  position: relative;
+  width: 92%;
+  margin: 1rem auto 0 auto;
+  padding: 2rem 0;
+  background: url(./img/bentencho_bg.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bentencho img {
+  width: 160px;
+  height: auto;
+}
+
+.bentencho p {
+  font-size: 13px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.bentencho:after {
+  content: "";
+  position: absolute;
+  top: calc(50% - 6.5px);
+  right: 10px;
+  width: 13px;
+  height: 13px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(45deg);
+}
+
 .fixBtn {
   position: fixed;
   right: 3rem;
@@ -682,6 +718,10 @@ em {
 
   #openMenu .menu-global-container {
     margin-top: 40px
+  }
+
+  .bentencho {
+    width: 100%;
   }
 }
 
@@ -761,6 +801,9 @@ em {
 
 .links {
   margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .links a {
@@ -860,6 +903,10 @@ address.cr {
 }
 
 @media(max-width:769px) {
+  .links {
+    display: block;
+  }
+
   .ttl-bloc {
     display: block;
     margin: 0 auto 40px

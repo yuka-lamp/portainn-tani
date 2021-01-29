@@ -58,14 +58,17 @@ if ($locale === 'en_US') {
   $hanshin_txt = '近鉄大阪線・難波線「大阪上本町駅」地下中央改札口より徒歩4分';
   $car = 'お車でのご利用の場合';
   $cra_ul = '阪神高速';
-  $cra_txt01 = '阪神高速環状線<br>「＊＊」出口より3分';
+  $cra_txt01 = '阪神高速環状線<br>「高津」入り口まで1分<br>「道頓堀」出口より2分';
   $cra_txt = '※駐車場はございません。近隣のコインパーキングをご利用下さい。';
+  $bus = 'バスをご利用の場合';
+  $bus_ul = '大阪シティバス';
+  $bus_txt01 = '「谷町九丁目」バス停より1分';
   $airplane = '飛行機ご利用のお客様';
   $airplane_ul_01 = '関西国際空港よりホテルまで50分';
   $airplane_ul_02 = '大阪空港（伊丹）よりホテルまで55分';
   $airplane_txt_01 = 'JR「関西空港」駅より「天王寺」駅（40分）にて乗り換え、大阪メトロ谷町線「天王寺」駅より「谷町九丁目」駅（3分）';
   $airplane_txt_02 = '大阪モノレール「大阪空港」駅より「蛍池」駅（3分）にて乗り換え、阪急宝塚線「蛍池」駅より「梅田」駅（15分）にて乗り換え、大阪メトロ谷町線「東梅田」駅より「谷町九丁目」駅（10分）';
-  $shinkansen = '新幹線ご利用のお客様';
+  $shinkansen = '新幹線をご利用の場合';
   $shinkansen_ul = 'JR新大阪駅よりホテルまで25分';
   $shinkansen_txt = '大阪メトロ御堂筋線「新大阪」駅より「梅田」駅（5分）、大阪メトロ谷町線「東梅田」駅より「谷町九丁目」駅（10分）';
 }
@@ -105,21 +108,28 @@ if ($locale === 'en_US') {
   </div>
 </div>
 
-<div class="wrap">
-  <h3 class="ttl3"><span><?php echo $car; ?></span></h3>
-  <div class="cars">
-    <div>
-      <h4><?php echo $cra_ul; ?></h4>
-      <img src="<?php echo $wp_url; ?>/img/car.svg" alt="車">
-      <p><?php echo $cra_txt01; ?></p>
+<div class="flex w-70">
+  <div class="wrap w-50">
+    <h3 class="ttl3"><span><?php echo $bus; ?></span></h3>
+    <div class="cars">
+      <div>
+        <h4><?php echo $bus_ul; ?></h4>
+        <img src="<?php echo $wp_url; ?>/img/bus.svg" alt="バス">
+        <p><?php echo $bus_txt01; ?></p>
+      </div>
     </div>
-    <!-- <div>
-      <h4><?php echo $cra_ul; ?></h4>
-      <img src="<?php echo $wp_url; ?>/img/car.svg" alt="お車">
-      <p><?php echo $cra_txt02; ?></p>
-    </div> -->
   </div>
-  <p class="txt-c"><?php echo $cra_txt; ?></p>
+  <div class="wrap w-50">
+    <h3 class="ttl3"><span><?php echo $car; ?></span></h3>
+    <div class="cars">
+      <div>
+        <h4><?php echo $cra_ul; ?></h4>
+        <img src="<?php echo $wp_url; ?>/img/car.svg" alt="車">
+        <p><?php echo $cra_txt01; ?></p>
+      </div>
+    </div>
+    <p class="txt-c"><?php echo $cra_txt; ?></p>
+  </div>
 </div>
 
 <div class="wrap">

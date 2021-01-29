@@ -68,18 +68,15 @@ if ($locale === 'en_US') {
     <li>靴へら</li>
     <li>スーツブラシ</li>';
     $amenity = 'アメニティ';
-    $amenity_txt = '<li>シャンプー</li>
+    $amenity_txt = '<li>歯ブラシ</li>
+    <li>レザー</li>
+    <li>シャンプー</li>
     <li>コンディショナー</li>
     <li>ボディソープ</li>
     <li>ハンドソープ</li>
     <li>ナイトウエア</li>
     <li>タオル類</li>
-    <li>使い捨てスリッパ</li>
-    <li style="font-weight:bold; margin:1rem 0 0 0">アメニティバイキング</li>
-    <li>歯ブラシ（硬い・柔らかい）</li>
-    <li>レザー</li>
-    <li>ボディタオル</li>
-    <li>インスタントドリンク<br>（コーヒー、紅茶、お茶）</li>';
+    <li>使い捨てスリッパ</li>';
     $service = 'サービス';
     $service_txt = '<li>宅急便（着払いのみ）</li>
     <li>コピー・ファックス</li>

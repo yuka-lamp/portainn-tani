@@ -10,6 +10,21 @@
   padding: 60px 0;
 }
 
+.w-50 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.w-70 {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
 .ttl3 {
   font-size: 1.5rem;
   font-weight: normal;
@@ -41,6 +56,15 @@
     padding: 40px 1rem;
   }
 
+  .w-50,
+  .w-70 {
+    width: 100%;
+  }
+
+  .flex {
+    display: block;
+  }
+
   .ttl3 {
     font-size: 1.3rem;
   }
@@ -63,6 +87,7 @@
   font-weight: normal;
   margin-bottom: 1em;
 }
+
 .rooms-archive h3 span {
   font-size: 1rem;
 }
@@ -164,14 +189,14 @@
   margin-top: 4rem;
 }
 
-.fitness>div,.fitness img {
+.fitness>div, .fitness img {
   width: 48%
 }
 
 .fitness h3 {
   font-size: 1.5rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
+  margin-bottom: 1rem;
+  font-weight: normal;
 }
 
 .other-appearance,
@@ -247,6 +272,7 @@
 
 .cars>div {
   width: 30%;
+  min-width: 300px;
   box-sizing: border-box;
   text-align: center;
   border: solid 1px #707070;
@@ -309,7 +335,7 @@
     margin-bottom: 1.5rem;
   }
 
-  .fitness>div,.fitness img {
+  .fitness>div, .fitness img {
     width: 100%
   }
 
@@ -406,6 +432,7 @@
   .foot-link .wrap>a {
     font-size: .8rem;
   }
+
   .foot-link .wrap>a img {
     width: 20px;
     height: auto;
