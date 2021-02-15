@@ -54,8 +54,8 @@ $wp_url = get_template_directory_uri();
 <?php echo do_shortcode('[bogo]'); ?>
 </li> -->
 <!-- <li><a class="color-white" target="_blank" href="https://www.facebook.com/portainnbentenchou"><i class="fab fa-facebook-square"></i></a></li> -->
-<!-- <li><a class="color-white" target="_blank" href="https://www.instagram.com/portainn.kujyo.residence/"><i class="fab fa-instagram"></i></a></li> -->
-<!-- <li><a class="color-white" target="_blank" href="https://twitter.com/Portainnbenten"><i class="fab fa-twitter"></i></a></li> -->
+<li><a class="color-white" target="_blank" href="https://www.instagram.com/portainn_tanimachi9chome/"><i class="fab fa-instagram"></i></a></li>
+<li><a class="color-white" target="_blank" href="https://twitter.com/portainn_tani9"><i class="fab fa-twitter"></i></a></li>
 <li class="hum">
 <div id="menuBtn">
 <div>
@@ -70,14 +70,14 @@ $wp_url = get_template_directory_uri();
 </header><!-- #hd -->
 
 <div id="openMenu">
-<!-- <ul class="sub-menu">
-<li class="sp-lang"><span class="eng">LANGUAGE</span>
+<ul class="sub-menu">
+<!-- <li class="sp-lang"><span class="eng">LANGUAGE</span>
 <?php echo do_shortcode('[bogo]'); ?>
-</li>
-<li><a target="_blank" href="https://www.facebook.com/portainnbentenchou"><img src="<?php echo get_template_directory_uri(); ?>/img/icn-fb.png" alt="facebook"></a></li>
-<li><a target="_blank" href="https://www.instagram.com/hotelportainnbentencho/"><img src="<?php echo get_template_directory_uri(); ?>/img/icn-insta.png" alt="Instagram"></a></li>
-<li><a target="_blank" href="https://twitter.com/Portainnbenten"><img src="<?php echo get_template_directory_uri(); ?>/img/icn-tw.png" alt="twitter"></a></li>
-</ul> -->
+</li> -->
+<!-- <li><a target="_blank" href="https://www.facebook.com/portainnbentenchou"><img src="<?php echo get_template_directory_uri(); ?>/img/icn-fb.png" alt="facebook"></a></li> -->
+<li><a target="_blank" href="https://www.instagram.com/portainn_tanimachi9chome/"><img src="<?php echo get_template_directory_uri(); ?>/img/icn-insta.png" alt="Instagram"></a></li>
+<li><a target="_blank" href="https://twitter.com/portainn_tani9"><img src="<?php echo get_template_directory_uri(); ?>/img/icn-tw.png" alt="twitter"></a></li>
+</ul>
 <?php wp_nav_menu(['theme_location' => 'primary']); ?>
 <a href="https://portainn.jp/" target="_blank" class="bentencho">
   <div class="">
