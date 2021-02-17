@@ -78,7 +78,7 @@ if ($locale === 'en_US') {
     <li>タオル類</li>
     <li>使い捨てスリッパ</li>';
     $service = 'サービス';
-    $service_txt = '<li>宅急便（着払いのみ）</li>
+    $service_txt = '<li>宅急便</li>
     <li>コピー・ファックス</li>
     <li>クリーニング</li>';
     $rental = '貸出品';
